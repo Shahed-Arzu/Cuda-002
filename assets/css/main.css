@@ -410,7 +410,50 @@ body {
 }
 
 
-.portfolio-contents .portfolios
+.portfolio-contents .portfolios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 60px;
+    margin-bottom: 80px;
+
+}
+
+.portfolio-contents .portfolios .portfolio-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.portfolio-contents .portfolios .portfolio-item .portfolio-title {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.portfolio-contents .btn {
+    text-align: center;
+}
+
+
+.portfolio-contents .load-more-button {
+    display: inline-block;
+    background-color: #17c2a4;
+    border-bottom: 5px solid #14a58c;
+    padding: 25px 60px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+.portfolio-contents .load-more-button:hover {
+    background-color: #14a58c;
+    border-bottom: 5px solid #17c2a4;
+}
 
 
 /*portfolio area css code end */
